@@ -13,7 +13,7 @@ function Intro() {
                   <Center pb='2rem'>
                     <Image src='/me.jpg' rounded='full' maxW={{base:'15rem', md:'50rem', lg:'60rem'}} h={{base:'15rem', md:'20rem' }}></Image>
                   </Center>
-                    <Flex pt={{lg:'1rem'}} direction='column'>
+                    <Flex pt={{lg:'1rem'}} pl={{lg:'1rem'}} direction='column'>
                       <Center>
                         <Heading fontweight='bold' pb='1rem'>Hi, I'm Anthony!</Heading>
                       </Center>
