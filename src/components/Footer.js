@@ -2,7 +2,7 @@ import {Flex, Text, Center, Link, Icon, Heading} from '@chakra-ui/react'
 import {FaGithub} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import { AiFillLinkedin } from "react-icons/ai"
-
+import { FaStrava } from 'react-icons/fa'
 
 const Footer = () => {
   const properties = {
@@ -24,7 +24,7 @@ const Footer = () => {
           </Flex>
         </Center>
         <Center>
-          <Flex fontWeight='bold' fontSize='lg'>{properties.address}</Flex>
+          <Flex fontWeight='semibold' fontSize='lg'>{properties.address}</Flex>
         </Center>
       </Flex>
     
