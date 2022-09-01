@@ -13,7 +13,7 @@ const Footer = () => {
   }
 
   return (
-      <Flex justify='center' direction='column' py='2rem' >
+      <Flex justify='center' direction='column' bgImage='/sunsetsky.jpg' py='1rem' >
         <Center>
           <Heading size='md' pb='1rem'>Let's connect!</Heading>
         </Center>
